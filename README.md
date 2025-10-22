@@ -1,3 +1,6 @@
+Grasiozo_Salvare
+Final project for CS-340 Client/Server Development SNHU
+
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 
 Adopting a modular strategy when writing code improves both how easy it is to maintain and how clear it is to read. Rather than building one large, all-encompassing file with every function, class, and the main routine, it’s more effective to separate your code into individual files for each class. Each file can hold a class along with its related getter and setter methods. The main routine should be placed in its own file, and any utility functions can be grouped into libraries. With this setup, you can update or fix a single library, and any code that uses that library will automatically benefit from those changes.
